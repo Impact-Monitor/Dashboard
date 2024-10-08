@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.05d6a389.css",
+    "main.js": "/dashboard/static/js/main.fd3a3878.js",
+    "static/media/top-header.png": "/dashboard/static/media/top-header.51c6df038b80bc315539.png",
+    "static/media/plot1.png": "/dashboard/static/media/plot1.9ea60b50be3462070664.png",
+    "static/media/airports.csv": "/dashboard/static/media/airports.690a5bf874657bdbd174.csv",
+    "static/media/Graph11.PNG": "/dashboard/static/media/Graph11.80ccce841349ff371c37.PNG",
+    "static/media/graphicSide.svg": "/dashboard/static/media/graphicSide.8ec3ae355e7c526c50286a5624bbb30c.svg",
+    "static/media/user.jpg": "/dashboard/static/media/user.5e54707260063876bf3d.jpg",
+    "static/media/Dataset2.csv": "/dashboard/static/media/Dataset2.15c036cda59791895a1f.csv",
+    "static/media/ImpactMonitor.jpg": "/dashboard/static/media/ImpactMonitor.fd8b383d4947e6f56f34.jpg",
+    "static/media/dragpolar_1.csv": "/dashboard/static/media/dragpolar_1.44585667757fe669e9ea.csv",
+    "static/media/plot2.png": "/dashboard/static/media/plot2.3647564daf2b72319a28.png",
+    "static/media/WindTurbine.csv": "/dashboard/static/media/WindTurbine.1709ae211fc43b919f8b.csv",
+    "index.html": "/dashboard/index.html",
+    "main.05d6a389.css.map": "/dashboard/static/css/main.05d6a389.css.map",
+    "main.fd3a3878.js.map": "/dashboard/static/js/main.fd3a3878.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d6a389.css",
+    "static/js/main.fd3a3878.js"
+  ]
+}
