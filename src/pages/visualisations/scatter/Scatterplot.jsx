@@ -68,6 +68,7 @@ export const Scatterplot = forwardRef((props, ref) => {
       {
           d3.select(svgRef.current).select('[id="circle' + i + '"]').style("fill", "#cb1dd1");
       }
+      console.log("atif");
   };
 
 
