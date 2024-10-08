@@ -1,0 +1,287 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* CSS for Login Form */
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75em;
+}
+
+.cover {
+  background-color: white;
+  width: 70%;
+  height: 50%;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.alt-login {
+  width: 80%;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alt-login div {
+  width: 47.5%;
+  height: 90%;
+  border-radius: 0.25em;
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* .google {background-image: url("../icons/google.png");}
+.facebook {background-image: url("../icons/facebook.png");} */
+
+input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+
+input:focus {
+  outline-color: rgb(32, 177, 255);
+}
+
+.login-btn {
+  width: 40%;
+  height: 3em;
+  background-color: rgb(32, 177, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.25);}
+
+.text {
+  position: relative;
+  bottom: 0.5%;
+}
+
+.hide {
+  position: absolute;
+  transform: scale(0);
+}
+
+.login-popup {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  transform: scale(1);
+  transition: 1.5s;
+}
+
+.blue {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: url('../icons/google.png'); */
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+  .page {
+      font-size: 1em;
+  }
+
+  .cover {
+      width: 60%;
+      height: 70%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+  .page {
+      font-size: 1.25em;
+  }
+
+  .cover {
+      width: 25%;
+      height: 65%;
+  }
+}
+
+/* -----------------top header style ---------------------------- */
+
+.iq-container{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  /* margin: auto; */
+  /* max-height: 20%; */
+}
+/* .overlay {
+  position: absolute;
+  top: -5%;
+  left: 5%;
+  text-align: center;
+  color: white;
+  display: flex;
+  width: 100%;
+} */
+.top-header-text{
+  text-align: left;
+  width: 80%;
+}
+.top-header-announcement{
+  padding: 2%;
+}
+.announcment-btn{
+  color: white;
+}
+.flex-wrap {
+  flex-wrap: wrap!important;
+}
+img, svg {
+  vertical-align: middle;
+  /* display: block; */
+}
+.iq-navbar-header .iq-header-img {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.iq-header-img{
+  max-height: 121px;
+}
+.img-fluid, .img-thumbnail {
+  height: auto;
+  max-width: 100%;
+}
+
+/* -----------------Dashboard Page ------------------ */
+
+.main-content-dashboard{
+  /* padding: 1%; */
+  height: 100%;
+}
+
+.plot1{
+  max-height: 300px;
+  width: 60%;
+  padding: auto;
+  margin-left: 1%;  
+  border: 1px solid #000;
+}
+.plot2{
+  max-height: 300px;
+  width: 30%;
+  margin-left: 1%;
+  border: 1px solid #000;
+}
+.plot3 {
+  max-height: 300px;
+  width: 80%;
+  padding: auto;
+  margin-left: 7%;
+  margin-top: 1%;
+  border: 1px solid #000;
+}
+
+
+/* ------------CSS for data management: start----------------------- */
+.dataUpload{
+  height: 750px;
+  overflow-y: scroll;
+}
+
+.csvDataTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table {
+  border: 2px solid gray;
+}
+th, tr { padding: auto;}
+th, tr:nth-child(even) {
+  background-color: #9eafca;
+}
+
+.uploadBtn, .uploadInput{
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.uploadBtn{ margin-left: 2em;}
+
+
+/* ----------CSS for data management: end-------------------- */
+
+/* ---------Misc----------- */
+.sidebar-submenu{
+  color: black;
+}
+/* ---------Misc----------- */

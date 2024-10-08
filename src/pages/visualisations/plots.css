@@ -1,0 +1,180 @@
+
+.main-container{
+    display: flex;
+}
+.graph-controller-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.graph-selector select {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.plot-label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.plot-input-field {
+    width: 20%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+.plot-input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    .graph-type-selector {
+    margin-bottom: 20px;
+}}
+ 
+  
+.button-container {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 2%;
+}
+
+.button-container:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+.button-container:hover {
+background-color: #0056b3;
+}
+
+.plot-div {
+    width: 65%;
+    margin-top: 20px; /* Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+
+.filter-container{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    /* margin: 20px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.remove{
+    background-color: red !important;
+    margin-bottom: 10px;
+    padding: 5px 10px !important;
+}
+
+.add{
+    background-color: green !important;
+    padding: 5px 10px !important;
+}
+
+
+/* -------------test 2 css: start------------ */
+
+#graph-container {
+    /* position: relative; */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #graph-container svg {
+    display: block;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure the modal overlay appears on top of other content */
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+
+  #x-column-label{
+    font-weight: bold;
+    margin-bottom: 5px;
+/* 
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px; */
+  }
+  
+
+  .modal-div {
+    padding: '20px' ;
+    
+  }
+  /* -------------test 2 css: end------------ */

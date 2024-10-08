@@ -1,0 +1,12 @@
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 20px; /* Spacing between grid items */
+  }
+  
+  .block {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,346 @@
+.IM-login-form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.IM-login-form .div {
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.IM-login-form .graphic-side {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.IM-login-form .overlap {
+    height: 100%;
+    left: 10%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.IM-login-form .frame {
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 411px;
+}
+
+.IM-login-form .form {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    left: 130px;
+    position: absolute;
+    top: 242px;
+}
+
+.IM-login-form .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+}
+
+.IM-login-form .div-3 {
+    height: 28px;
+    position: relative;
+    width: 28px;
+}
+
+.IM-login-form .logo {
+    height: 28px;
+    transform: rotate(-45deg);
+}
+
+.IM-login-form .group {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 28px;
+}
+
+.IM-login-form .rectangle {
+    background-color: var(--x3a57e8-primary);
+    border-radius: 2px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+
+.IM-login-form .rectangle-2 {
+    background-color: var(--x3a57e8-primary);
+    border-radius: 2px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 28px;
+}
+
+.IM-login-form .group-2 {
+    height: 28px;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.IM-login-form .rectangle-3 {
+    background-color: var(--x3a57e8-primary);
+    border-radius: 2px;
+    height: 4px;
+    left: -6px;
+    position: absolute;
+    top: 18px;
+    transform: rotate(90deg);
+    width: 16px;
+}
+
+.IM-login-form .rectangle-4 {
+    background-color: var(--x3a57e8-primary);
+    border-radius: 2px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    transform: rotate(90deg);
+    width: 28px;
+}
+
+.IM-login-form .square {
+    color: var(--x232d42-text-color-1);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 42.9px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .div-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+
+.IM-login-form .text-wrapper {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 42.9px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .p {
+    color: var(--x8a92a6-text-color-2);
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    position: relative;
+}
+
+.IM-login-form .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.IM-login-form .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.IM-login-form .text-wrapper-2 {
+    color: var(--x8a92a6-text-color-2);
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .email-input {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+
+.IM-login-form .div-5 {
+    background-color: var(--ffffff-bg-1);
+    border: 1px solid;
+    border-color: var(--x3a57e8-primary);
+    border-radius: 4px;
+    flex: 0 0 auto;
+    position: relative;
+    width: 436px;
+}
+
+.IM-login-form .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 166px;
+    position: relative;
+}
+
+.IM-login-form .img {
+    flex: 0 0 auto;
+    margin-bottom: -6px;
+    margin-left: -8px;
+    position: relative;
+}
+
+.IM-login-form .password {
+    color: var(--x3a57e8-primary);
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .div-wrapper {
+    align-items: center;
+    background-color: #3a57e8;
+    border-radius: 4px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 8px 24px;
+    position: relative;
+}
+
+.IM-login-form .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 140px;
+}
+
+.IM-login-form .username-or-email {
+    color: var(--x232d42-text-color-1);
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .socail-links {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.IM-login-form .don-t-have-an {
+    color: transparent;
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IM-login-form .span {
+    color: #232d42;
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+}
+
+.IM-login-form .text-wrapper-4 {
+    margin-left: 75px;
+    color: #3a57e8;
+    font-family: var(--h6-16px-regular-inter-font-family);
+    font-size: var(--h6-16px-regular-inter-font-size);
+    font-style: var(--h6-16px-regular-inter-font-style);
+    font-weight: var(--h6-16px-regular-inter-font-weight);
+    letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+    line-height: var(--h6-16px-regular-inter-line-height);
+}
+
+
+/* ---------------------------- */
